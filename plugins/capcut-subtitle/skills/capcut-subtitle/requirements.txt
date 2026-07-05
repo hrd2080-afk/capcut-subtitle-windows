@@ -1,0 +1,2 @@
+# Speech-to-text engine (pulls ctranslate2, onnxruntime, tokenizers, etc.)
+faster-whisper>=1.1,<2

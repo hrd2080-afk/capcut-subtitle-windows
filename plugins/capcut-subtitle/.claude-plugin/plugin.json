@@ -1,0 +1,9 @@
+{
+  "name": "capcut-subtitle",
+  "description": "Windows용 캡컷 자동 자막 스킬 — 영상 음성을 인식하거나 대본을 음성에 맞춰 정렬해 타이밍·스타일이 잡힌 자막을 네이티브 CapCut 드래프트로 생성합니다.",
+  "version": "1.0.0",
+  "author": {
+    "name": "eunssaem (Windows port)"
+  },
+  "license": "MIT"
+}
