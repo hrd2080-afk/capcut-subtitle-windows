@@ -53,21 +53,27 @@ winget install ffmpeg
 
 ## 설치 방법
 
-### 방법 1: 이 레포를 통째로 다운로드 (권장)
+**처음 설치하는 경우** — Claude Code 안에서 아래 명령어를 실행하세요:
 
-1. 이 페이지 상단 초록색 **`Code`** 버튼 클릭
-2. **`Download ZIP`** 클릭
-3. 압축 해제 후 `plugins\capcut-subtitle\skills\capcut-subtitle` 폴더를 복사
-4. `C:\Users\내계정명\.claude\skills\capcut-subtitle` 위치에 붙여넣기
-
-> `내계정명` 부분은 본인 Windows 사용자 이름으로 바꾸세요.  
-> 예: `C:\Users\홍길동\.claude\skills\capcut-subtitle`
-
-### 방법 2: git 사용
 ```
-git clone https://github.com/hrd2080-afk/capcut-subtitle-windows.git
+/plugin marketplace add eunssaem26/capcut-subtitle
+/plugin install capcut-subtitle@eunssaem-skills
 ```
-클론 후 동일하게 `plugins\capcut-subtitle\skills\capcut-subtitle` 폴더를 `.claude\skills\capcut-subtitle`에 복사
+
+capcut-fill 스킬(검정 테두리 자동 제거)도 함께 설치하고 싶다면 한 줄 더 추가:
+
+```
+/plugin install capcut-fill@eunssaem-skills
+```
+
+---
+
+**이미 마켓플레이스를 추가한 적이 있다면**, 새 스킬만 설치하면 됩니다:
+
+```
+/plugin marketplace update
+/plugin install capcut-subtitle@eunssaem-skills
+```
 
 ---
 
