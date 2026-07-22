@@ -56,7 +56,7 @@ winget install ffmpeg
 **처음 설치하는 경우** — Claude Code 안에서 아래 명령어를 실행하세요:
 
 ```
-/plugin marketplace add eunssaem26/capcut-subtitle
+/plugin marketplace add hrd2080-afk/capcut-subtitle-windows
 /plugin install capcut-subtitle@eunssaem-skills
 ```
 
