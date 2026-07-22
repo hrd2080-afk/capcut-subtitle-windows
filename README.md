@@ -57,22 +57,14 @@ winget install ffmpeg
 
 ```
 /plugin marketplace add hrd2080-afk/capcut-subtitle-windows
-/plugin install capcut-subtitle@eunssaem-skills
+/plugin install capcut-subtitle@capcut-subtitle-windows
 ```
 
-capcut-fill 스킬(검정 테두리 자동 제거)도 함께 설치하고 싶다면 한 줄 더 추가:
-
-```
-/plugin install capcut-fill@eunssaem-skills
-```
-
----
-
-**이미 마켓플레이스를 추가한 적이 있다면**, 새 스킬만 설치하면 됩니다:
+**이미 마켓플레이스를 추가한 적이 있다면**, 새 버전을 받으려면:
 
 ```
 /plugin marketplace update
-/plugin install capcut-subtitle@eunssaem-skills
+/plugin install capcut-subtitle@capcut-subtitle-windows
 ```
 
 ---
