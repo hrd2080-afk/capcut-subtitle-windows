@@ -25,31 +25,6 @@ CapCut에서 영상 작업을 할 때 자막을 일일이 타이핑하고 타이
 
 ---
 
-## 사전 준비 (처음 한 번만)
-
-### 1. Claude Code 설치
-[claude.ai/code](https://claude.ai/code) 에서 Windows용 설치
-
-### 2. Python 설치
-[python.org/downloads](https://www.python.org/downloads/) 에서 최신 버전 다운로드 후 설치  
-⚠️ 설치 화면에서 **"Add Python to PATH"** 반드시 체크!
-
-![Python PATH 체크 예시](https://docs.python.org/3/_images/win_installer.png)
-
-### 3. ffmpeg 설치
-Windows 터미널(PowerShell)을 열고 아래 명령어 실행:
-```
-winget install ffmpeg
-```
-설치 후 터미널을 껐다가 다시 여세요.
-
-> winget이 없다면 [ffmpeg.org](https://ffmpeg.org/download.html) 에서 Windows 빌드를 직접 다운로드 후 PATH에 추가하세요.
-
-### 4. CapCut 설치 및 최초 실행
-[capcut.com](https://www.capcut.com) 에서 Windows용 설치 후 **한 번 실행했다가 종료**하세요.  
-(드래프트 폴더가 자동 생성됩니다)
-
----
 
 ## 설치 방법
 
