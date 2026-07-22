@@ -59,14 +59,6 @@ winget install ffmpeg
 /plugin marketplace add hrd2080-afk/capcut-subtitle-windows
 /plugin install capcut-subtitle@capcut-subtitle-windows
 ```
-
-**이미 마켓플레이스를 추가한 적이 있다면**, 새 버전을 받으려면:
-
-```
-/plugin marketplace update
-/plugin install capcut-subtitle@capcut-subtitle-windows
-```
-
 ---
 
 ## 셋업 (최초 1회)
